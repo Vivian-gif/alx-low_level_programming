@@ -1,17 +1,18 @@
 #include "main.h"
 /**
- * main - check the cint i;
-
-	i = 0;
-	positive_or_negative(i);
-
-	returnode
+ * main - check the code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	 (0);
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
+	return (0);
 }
+
 
 
