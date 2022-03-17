@@ -1,20 +1,16 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Prints the alphabet 10 times.
- *
- * Return: Always 0 (Success)
+ * mul - multiplies two integers
+ * @a: int to be multiplied to b
+ * @b: int to be multiplied to a
+ * Return: the result of the operation
  */
-void print_alphabet_x10(void)
+int mul(int a, int b)
 {
-	int a, b;
+	int c;
 
-	for (a = 0; a <= 9; a++)
-	{
-		for (b = 97; b <= 122; b++)
-		{
-			_putchar(b);
-		}
-	_putchar('\n');
-	}
+	c = a * b;
+
+	return (c);
 }
