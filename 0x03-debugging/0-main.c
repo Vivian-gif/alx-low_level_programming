@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
  * main - check the cint i;
