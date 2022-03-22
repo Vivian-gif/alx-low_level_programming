@@ -6,9 +6,7 @@
  * Return: no return.
  */
 void puts2(char *str)
-{		}
-		if (count % 2 == 0)
-			_putchar(str[count]);
+{
 	int count = 0;
 
 	while (count >= 0)
@@ -17,7 +15,9 @@ void puts2(char *str)
 		{
 			_putchar('\n');
 			break;
-
+		}
+		if (count % 2 == 0)
+			_putchar(str[count]);
 		count++;
 	}
 }
