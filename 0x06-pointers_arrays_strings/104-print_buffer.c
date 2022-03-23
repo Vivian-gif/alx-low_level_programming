@@ -2,17 +2,14 @@
 #include <stdio.h>
 
 /**
- *@size: size of buffer.
+ * print_buffer - prints a buffer
+ * @b: buffer.
+ * @size: size of buffer.
  * Return: no return.
  */
-v print_buffer - prints a buffer
- * @b: buffer.
- * oid print_buffer(char *b, int size)
+void print_buffer(char *b, int size)
 {
-	int j, k, lj);
-			for (k = j; k < j + 10; k++)
-			{
-				if (k;
+	int j, k, l;
 
 	if (size <= 0)
 		printf("\n");
@@ -20,7 +17,10 @@ v print_buffer - prints a buffer
 	{
 		for (j = 0; j < size; j += 10)
 		{
-			printf("%.8x:",  % 2 == 0)
+			printf("%.8x:", j);
+			for (k = j; k < j + 10; k++)
+			{
+				if (k % 2 == 0)
 					printf(" ");
 				if (k < size)
 					printf("%.2x", *(b + k));
