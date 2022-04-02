@@ -5,17 +5,17 @@
  * main - print the min number of coins to make change for an amount of money
  * @argc: argument count
  * @argv: argument vector, array of strings
- *  int i;
-	char *p;
-	int cents[] = {25, 10, 5, 2};
-
-Return: 1 if error, 0 otherwise
+ * Return: 1 if error, 0 otherwise
  */
 
 int main(int argc, char *argv[])
 {
 	int total, count;
-	unsigned	if (argc != 2)
+	unsigned int i;
+	char *p;
+	int cents[] = {25, 10, 5, 2};
+
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
