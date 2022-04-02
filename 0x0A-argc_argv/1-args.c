@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - print the unt
+ * main - print the num of args you passed to it
+ * @argc: argument count
  * @argv: argument vector, array of strings
- *num of args you passed to it
- * @argc: argument co Return: 0
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
