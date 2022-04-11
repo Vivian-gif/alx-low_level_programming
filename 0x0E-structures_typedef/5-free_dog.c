@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 /**
- *eturn: no return.
+ * free_dog - free the dogs
+ * @d: pointer to dog struct
  */
+
 void free_dog(dog_t *d)
 {
-	i free_dog - frees dogs.
- * @d: struct dog.
- *
- * Rf (d)
+	if (d != NULL)
 	{
 		free(d->name);
 		free(d->owner);
+
 		free(d);
 	}
 }
